@@ -7,6 +7,6 @@ Otherwise you will get LIBUSB_ERROR_NOT_SUPPORTED when attempting to open device
 # How to use it
 * You must change `const CFG` value in  `constant.js`.
 * Adapters only have three option (`usb`, `serial`, and `network`). Every options have a class that need option setting for your device(printer), look at adapter folder.
-* npm install
+* `npm install`
 * Enjoy it !!!
 
