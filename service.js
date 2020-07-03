@@ -37,8 +37,7 @@ class Service extends EventEmitter {
       })
     })
 
-    this.printer = new Printer('serial', {
-    })
+    this.printer = new Printer('serial', CFG.defaults.printer.option)
     this.printer.on('open', () => {
       this.emit('printer:open')
     })
@@ -62,7 +61,7 @@ class Service extends EventEmitter {
 
   start () {
     return new Promise((resolve, reject) => {
-      this.http.listen(1811, () => {
+      this.http.listen(CFG.defaults.app.port, () => {
         this.printer.open().then(() => {
           this.emit('open')
 
