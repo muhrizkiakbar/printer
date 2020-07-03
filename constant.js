@@ -1,5 +1,6 @@
 
 
+const _ = require('lodash');
 
 const CFG = {
   defaults: {
