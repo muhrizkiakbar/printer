@@ -1,6 +1,5 @@
 const Service = require('./service.js')
 const OS = require('os');
-const LibUSB = require('usb');
 
 
 try {
