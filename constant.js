@@ -7,7 +7,7 @@ const CFG = {
     printer: {
       adapter: 'serial',
       option : {
-        comport: 'USB\\VID_067B&PID_2303\\6&316CB782&0&4',
+        comport: 'COM10',
         baudrate: 9600
       },
     },
