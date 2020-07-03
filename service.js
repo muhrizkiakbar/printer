@@ -39,7 +39,7 @@ class Service extends EventEmitter {
 
     this.printer = new Printer('serial', {
         option: {
-            comport:  "USB\VID_067B&PID_2303\6&316CB782&0&4",
+            comport: "USB\VID_067B&PID_2303\6&316CB782&0&4",
             baudrate: "9600"
         }
     })
