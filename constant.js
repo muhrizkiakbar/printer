@@ -8,7 +8,7 @@ const CFG = {
       adapter: 'serial',
       option : {
         comport: "USB\VID_067B&PID_2303\6&316CB782&0&4",
-        baudrate: "9600"
+        baudrate: 9600
       },
     },
     app: {
