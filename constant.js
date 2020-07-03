@@ -34,3 +34,7 @@ const PRINT_TEST =
 \x1b\x45\x00\x1b\x47\x01DOUBLE STRIKE
 \x1b\x47\x00\x1b\x61\x01
 \x1d\x6b\x41\x0c123456789012\n\n`
+
+module.exports = {
+  CFG, PRINT_TEST
+}
