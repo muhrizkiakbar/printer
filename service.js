@@ -39,7 +39,7 @@ class Service extends EventEmitter {
 
     this.printer = new Printer('serial', {
         option: {
-            comport: "6&316CB782&0&4",
+            comport: "COM10",
             baudrate: "9600"
         }
     })
