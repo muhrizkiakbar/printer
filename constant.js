@@ -2,6 +2,21 @@
 
 const _ = require('lodash');
 
+const CFG = {
+  defaults: {
+    printer: {
+      adapter: 'serial',
+      option : {
+        comport: "USB\VID_067B&PID_2303\6&316CB782&0&4",
+        baudrate: "9600"
+      },
+    },
+    app: {
+      port: 1811,
+      key : _.random(1000000000, 9999999999).toString(),
+    },
+  },
+}
 
 
 const PRINT_TEST =
